@@ -213,6 +213,9 @@ var bar = foo.call( obj1 );
 bar.call( obj2 ); // 2, 不是3!
 ```
 
+### 参考文档
+[You-Dont-Know-JS-CN](https://github.com/CuiFi/You-Dont-Know-JS-CN)  
+[globals_exports](https://nodejs.org/dist/latest-v8.x/docs/api/globals.html#globals_exports)
 
 ---
 
@@ -230,6 +233,7 @@ var foo = function() {
 }
 ```
 
+---
 ## 继承
 ### 面向对象的3个特性：封装、继承和多态
 > 如果不希望别人知道内部实现，则可以进行封装  
