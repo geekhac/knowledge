@@ -76,6 +76,15 @@ cookie中常用的属性：
 |secure|`安全`，是否只在SSL链接中使用|
 |expiration|`过期`，设置了在过期值之前都有效，否则会话级别有效|
 
+过期时间设置
+
+通常使用 Expires 和 Max-age 来设置cookie 的过期时间，
+
+- Expires：到所设置的时间后删除cookie
+- Max-age: 经过所设置的时间就过期
+
+Max-age 是 Expires 的优化，优先级高。IE 对不支持 Max-age。
+
 ---
 
 ## session
